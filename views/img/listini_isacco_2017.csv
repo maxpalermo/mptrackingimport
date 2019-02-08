@@ -1,0 +1,12 @@
+<div class="error"><h1>Errore</h1><p><strong>Query SQL:</strong>
+<a href="./url.php?url=http%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Fselect.html" target="mysql_doc"><img src="themes/dot.gif" title="Documentazione" alt="Documentazione" class="icon ic_b_help" /></a><a href="tbl_sql.php?sql_query=SELECT+listini_isacco.articolo%2Clistini_isacco.anno%2Clistini_isacco.prezzo%2Clistini_isacco.anno%2Clistini_isacco.prezzo+FROM+%60listini_isacco%60%2C+%60listini_isacco%60+where+listini_isacco.articolo%3Dlistini_isacco.articolo+and+listini_isacco.anno+%3D+2016+and+listini_isacco.anno%3D2017%0D%0Aorder+by+listini_isacco.articolo&amp;show_query=1&amp;db=table_creator&amp;table=listini_isacco&amp;token=16f6ea93ff47997681ffcdbc250e3769"><span class="nowrap"><img src="themes/dot.gif" title="Modifica" alt="Modifica" class="icon ic_b_edit" />&nbsp;Modifica</span></a>    </p>
+<p>
+<code class="sql"><pre>
+SELECT listini_isacco.articolo,listini_isacco.anno,listini_isacco.prezzo,listini_isacco.anno,listini_isacco.prezzo FROM `listini_isacco`, `listini_isacco` where listini_isacco.articolo=listini_isacco.articolo and listini_isacco.anno = 2016 and listini_isacco.anno=2017
+order by listini_isacco.articolo
+</pre></code>
+</p>
+<p>
+    <strong>Messaggio di MySQL: </strong><a href="./url.php?url=http%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Ferror-messages-server.html" target="mysql_doc"><img src="themes/dot.gif" title="Documentazione" alt="Documentazione" class="icon ic_b_help" /></a>
+</p>
+<code>#1066 - Not unique table/alias: 'listini_isacco'</code><br/></div>
